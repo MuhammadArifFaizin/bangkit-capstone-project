@@ -5,12 +5,12 @@ The documentation of Bangkit Capstone Project 2022
 Team ID : C22-PS309
 | Member | Student ID | Path | Role | Contacts | University |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| Vanda Fitriyanah | M2004G0185 | Machine Learning | Project Manager, Machine Learning Engineer | [LinkedIn]() or [Github]() | Institut Teknologi Sepuluh Nopember |
+| Vanda Fitriyanah | M2004G0185 | Machine Learning | Project Manager, Machine Learning Engineer | [LinkedIn](https://www.linkedin.com/in/vanda-fitriyanah-713857194) or [Github](https://github.com/VandaFitriyanah) | Institut Teknologi Sepuluh Nopember |
 | Muhammad Arif Faizin | M2004F0305 | Machine Learning | Machine Learning Engineer | [LinkedIn](https://linkedin.com/in/muhammad-arif-faizin/) or [Github](https://github.com/MuhammadArifFaizin/) | Institut Teknologi Sepuluh Nopember |
 | Gilang Rahmat Akbar | M2004F0269 | Machine Learning | Machine Learning Engineer | [LinkedIn]() or [Github]() | Institut Teknologi Sepuluh Nopember |
 | Zalsabila | A2180G1755 | Mobile Development | Android Mobile Developer | [LinkedIn]() or [Github]() | Universitas Airlangga |
 | Amelia | A2180G1753 | Mobile Development | Android Mobile Developer | [LinkedIn]() or [Github]() | Universitas Airlangga |
-| Aulia Faturrachman | C7152F1681 | Cloud Computing | DevOps Engineer | [LinkedIn]() or [Github]() | Sekolah Tinggi Teknologi Bandung |
+| Aulia Faturrachman | C7152F1681 | Cloud Computing | DevOps Engineer | [LinkedIn](https://www.linkedin.com/in/auliafaturrachman/) or [Github](https://github.com/auliafaturrachman) | Sekolah Tinggi Teknologi Bandung |
 
 # Project Mentors
 - Kevin Yehezkiel Gurning - Assistant Laboratory at Politeknik Siber dan Sandi Negara
