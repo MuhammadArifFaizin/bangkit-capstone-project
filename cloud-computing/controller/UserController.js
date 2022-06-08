@@ -6,11 +6,14 @@ const pool = new Pool(db);
 const getUser = (req, res) => {
   pool.query('SELECT * FROM users ORDER BY id ASC', (err, results) => {
     if (err) {
-      throw err;
+      res.status(400)
+        .contentType('application/json')
+        .json({ status: err.name, message: err.message });
+    } else {
+      res.status(200)
+        .contentType('application/json')
+        .json({ status: 'success', data: results.rows });
     }
-    res.status(200)
-      .contentType('application/json')
-      .json({ status: 'success', data: results.rows });
   });
 };
 
@@ -18,9 +21,14 @@ const getUserById = (req, res) => {
   const id = parseInt(req.params.id, 10);
   pool.query('SELECT * FROM users WHERE id = $1', [id], (err, results) => {
     if (err) {
-      throw err;
+      res.status(400)
+        .contentType('application/json')
+        .json({ status: err.name, message: err.message });
+    } else {
+      res.status(200)
+        .contentType('application/json')
+        .json({ status: 'success', data: results.rows });
     }
-    res.status(200).json({ status: 'success', data: results.rows });
   });
 };
 
@@ -32,14 +40,17 @@ const createUser = (req, res) => {
     [name, email],
     (err, result) => {
       if (err) {
-        throw err;
+        res.status(400)
+          .contentType('application/json')
+          .json({ status: err.name, message: err.message });
+      } else {
+        res.status(201)
+          .contentType('application/json')
+          .json({
+            status: 'success',
+            data: result.rows[0].id,
+          });
       }
-      res.status(201)
-        .contentType('application/json')
-        .json({
-          status: 'success',
-          data: result.rows[0].id,
-        });
     },
   );
 };
@@ -53,14 +64,17 @@ const updateUser = (req, res) => {
     [name, email, id],
     (err) => {
       if (err) {
-        throw err;
+        res.status(400)
+          .contentType('application/json')
+          .json({ status: err.name, message: err.message });
+      } else {
+        res.status(200)
+          .contentType('application/json')
+          .json({
+            status: 'success',
+            message: `User modified with ID: ${id}`,
+          });
       }
-      res.status(200)
-        .contentType('application/json')
-        .json({
-          status: 'success',
-          message: `User modified with ID: ${id}`,
-        });
     },
   );
 };
@@ -68,15 +82,19 @@ const updateUser = (req, res) => {
 const deleteUser = (req, res) => {
   const id = parseInt(req.params.id, 10);
 
-  pool.query('DELETE FROM users WHERE id = $1', [id], (error) => {
-    if (error) {
-      throw error;
+  pool.query('DELETE FROM users WHERE id = $1', [id], (err) => {
+    if (err) {
+      res.status(400)
+        .contentType('application/json')
+        .json({ status: err.name, message: err.message });
+    } else {
+      res.status(200)
+        .contentType('application/json')
+        .json({
+          status: 'success',
+          message: `User deleted with ID: ${id}`,
+        });
     }
-    res.status(200)
-      .json({
-        status: 'success',
-        message: `User deleted with ID: ${id}`,
-      });
   });
 };
 
