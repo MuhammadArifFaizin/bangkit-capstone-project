@@ -8,7 +8,7 @@ Team ID : C22-PS309
 | Vanda Fitriyanah | M2004G0185 | Machine Learning | Project Manager, Machine Learning Engineer | [LinkedIn](https://www.linkedin.com/in/vanda-fitriyanah-713857194) or [Github](https://github.com/VandaFitriyanah) | Institut Teknologi Sepuluh Nopember |
 | Muhammad Arif Faizin | M2004F0305 | Machine Learning | Machine Learning Engineer | [LinkedIn](https://linkedin.com/in/muhammad-arif-faizin/) or [Github](https://github.com/MuhammadArifFaizin/) | Institut Teknologi Sepuluh Nopember |
 | Gilang Rahmat Akbar | M2004F0269 | Machine Learning | Machine Learning Engineer | [LinkedIn](https://linkedin.com/in/gilangrahmatakbar) or [Github](https://github.com/gilangrahmatakbar) | Institut Teknologi Sepuluh Nopember |
-| Zalsabila | A2180G1755 | Mobile Development | Android Mobile Developer | [LinkedIn]() or [Github]() | Universitas Airlangga |
+| Zalsabila | A2180G1755 | Mobile Development | Android Mobile Developer | [LinkedIn](https://www.linkedin.com/in/zalsabila-budistihara-7a0b011ba/) or [Github]() | Universitas Airlangga |
 | Amelia | A2180G1753 | Mobile Development | Android Mobile Developer | [LinkedIn]() or [Github]() | Universitas Airlangga |
 | Aulia Faturrachman | C7152F1681 | Cloud Computing | DevOps Engineer | [LinkedIn](https://www.linkedin.com/in/auliafaturrachman/) or [Github](https://github.com/auliafaturrachman) | Sekolah Tinggi Teknologi Bandung |
 
