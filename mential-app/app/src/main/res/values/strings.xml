@@ -12,7 +12,7 @@
 
     //Button title
     <string name="btn_skip">Skip</string>
-    <string name="btn_signp">Sign Up</string>
+    <string name="btn_sigup">Sign Up</string>
     <string name="btn_login">Login</string>
     <string name="start_test">Start Test</string>
     <string name="btn_next">Next</string>
@@ -43,12 +43,30 @@
     <string name="point1">Please record in quite place</string>
     <string name="point2">Make sure the device can record well</string>
     <string name="point3">Answer duration will be given whithin\n10 seconds</string>
-    <string name="point4">Answer quetions in clear voice and\naccording to conditions</string>
+    <string name="point4">Answer questions in clear voice and\naccording to conditions</string>
     <string name="point5">Please answer by saying, "say the\nword …" first for example: "say the\nword I'm happy today."</string>
 
     //question
     <string name="question1">How are you today?</string>
     <string name="question2">Tell me about your day!</string>
     <string name="question3">Please tell me about your worry!</string>
+
+    //result
+    <string name="title_result">Result</string>
+    <string name="happy_result">Yay, you are happy</string>
+    <string name="happy_detail">Be healthy and take care\nof yourself, but be happy\nwith the beautiful things\nthat make you, you.</string>
+    <string name="sad_result">you are Sad, why?</string>
+    <string name="sad_detail">Don\'t be sad. Cry as much\nas you want and believe\neverything will be fine.\nForgive yourself and do it\nagain. Tell me if possible.</string>
+    <string name="neutral_result">You are good, because\nyou are Neutral</string>
+    <string name="neutral_detail">You are great. Keep the\nspirit and rest if you are\ntired.</string>
+    <string name="fear_result">I think you are Fear now</string>
+    <string name="fear_detail">Don\'t be afraid. Stay calm.\nImmediately go to\na doctor/psychiatrist to\nconsult to overcome your\nfear.</string>
+    <string name="angry_result">you feel Angry, why?</string>
+    <string name="angry_detail">Calm down, and deal with\nyour problems with a cool\nhead</string>
+    <string name="disgust_result">you feel Disgust, why?</string>
+    <string name="disgust_detail">I know this life sometimes\nmakes you very tired. But\nbelieve in yourself that all\nwill be well.</string>
+    <string name="ps_result">wow, you feel Pleasant\nSurprise</string>
+    <string name="ps_detail">Things in your life may be\nout of control. But I know\nyou can get through it.</string>
+
 
 </resources>
