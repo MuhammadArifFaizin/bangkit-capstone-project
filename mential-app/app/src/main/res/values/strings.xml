@@ -33,6 +33,10 @@
     <string name="city">City</string>
     <string name="password">Password</string>
     <string name="confirm_pass">Confirm Password</string>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
 
     //homepage
     <string name="greeting">Hii,</string>
