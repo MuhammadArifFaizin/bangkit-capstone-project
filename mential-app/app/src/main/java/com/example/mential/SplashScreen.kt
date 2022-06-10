@@ -21,14 +21,14 @@ class SplashScreen : AppCompatActivity() {
         }
         binding.titleApp.alpha = 0f
         binding.titleApp.animate().setDuration(5000).alpha(1f).withEndAction {
-            val i = Intent(this, MainActivity::class.java)
+            val i = Intent(this, LandingPage1::class.java)
             startActivity(i)
             overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
             finish()
         }
         binding.mottoApp.alpha = 0f
         binding.mottoApp.animate().setDuration(5000).alpha(1f).withEndAction {
-            val i = Intent(this, MainActivity::class.java)
+            val i = Intent(this, LandingPage1::class.java)
             startActivity(i)
             overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
             finish()

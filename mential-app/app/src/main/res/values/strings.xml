@@ -37,7 +37,7 @@
     //homepage
     <string name="greeting">Hii,</string>
     <string name="test">Lets check your mental health\nwith us</string>
-    
+
     //caution
     <string name="title_caution">Caution</string>
     <string name="point1">Please record in quite place</string>
