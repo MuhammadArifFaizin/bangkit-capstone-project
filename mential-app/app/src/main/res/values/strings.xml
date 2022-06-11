@@ -41,6 +41,7 @@
     //homepage
     <string name="greeting">Hii,</string>
     <string name="test">Lets check your mental health\nwith us</string>
+    <string name="hi">Hiii,</string>
 
     //caution
     <string name="title_caution">Caution</string>
