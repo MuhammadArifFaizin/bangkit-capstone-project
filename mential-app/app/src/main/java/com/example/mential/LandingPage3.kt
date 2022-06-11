@@ -4,7 +4,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.mential.databinding.ActivityLandingPage3Binding
-import com.example.mential.databinding.ActivitySplashScreenBinding
 
 class LandingPage3 : AppCompatActivity() {
     private lateinit var binding: ActivityLandingPage3Binding
