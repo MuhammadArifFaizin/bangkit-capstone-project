@@ -3,20 +3,29 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/UNAIR/ACTIVITY/BANGKIT 2022/CAPSTONE/GITHUB REPO/mential-app/app/src/main/res/drawable/pause.xml" value="0.224" />
+        <entry key="..\:/UNAIR/ACTIVITY/BANGKIT 2022/CAPSTONE/GITHUB REPO/mential-app/app/src/main/res/drawable/play.xml" value="0.224" />
+        <entry key="..\:/UNAIR/ACTIVITY/BANGKIT 2022/CAPSTONE/GITHUB REPO/mential-app/app/src/main/res/drawable/shape_circle_coral.xml" value="0.224" />
+        <entry key="..\:/UNAIR/ACTIVITY/BANGKIT 2022/CAPSTONE/GITHUB REPO/mential-app/app/src/main/res/drawable/shape_circle_white.xml" value="0.224" />
         <entry key="..\:/UNAIR/ACTIVITY/BANGKIT 2022/CAPSTONE/GITHUB REPO/mential-app/app/src/main/res/drawable/shape_nrc_rectangle_coral_soft.xml" value="0.224" />
         <entry key="..\:/UNAIR/ACTIVITY/BANGKIT 2022/CAPSTONE/GITHUB REPO/mential-app/app/src/main/res/drawable/shape_rc12_rectangle_coral_soft.xml" value="0.224" />
+        <entry key="..\:/UNAIR/ACTIVITY/BANGKIT 2022/CAPSTONE/GITHUB REPO/mential-app/app/src/main/res/drawable/shape_rc20_rectangle_purple.xml" value="0.224" />
         <entry key="..\:/UNAIR/ACTIVITY/BANGKIT 2022/CAPSTONE/GITHUB REPO/mential-app/app/src/main/res/drawable/shape_rectangel_coral.xml" value="0.2555" />
         <entry key="..\:/UNAIR/ACTIVITY/BANGKIT 2022/CAPSTONE/GITHUB REPO/mential-app/app/src/main/res/drawable/shape_rectangel_purple.xml" value="0.1" />
         <entry key="..\:/UNAIR/ACTIVITY/BANGKIT 2022/CAPSTONE/GITHUB REPO/mential-app/app/src/main/res/drawable/shape_rectangle_coral.xml" value="0.1455" />
         <entry key="..\:/UNAIR/ACTIVITY/BANGKIT 2022/CAPSTONE/GITHUB REPO/mential-app/app/src/main/res/drawable/shape_rectangle_coral_soft.xml" value="0.142" />
         <entry key="..\:/UNAIR/ACTIVITY/BANGKIT 2022/CAPSTONE/GITHUB REPO/mential-app/app/src/main/res/drawable/shape_rectangle_purple.xml" value="0.129" />
+        <entry key="..\:/UNAIR/ACTIVITY/BANGKIT 2022/CAPSTONE/GITHUB REPO/mential-app/app/src/main/res/drawable/stop.xml" value="0.224" />
         <entry key="..\:/UNAIR/ACTIVITY/BANGKIT 2022/CAPSTONE/GITHUB REPO/mential-app/app/src/main/res/layout/activity_homepage.xml" value="0.25" />
-        <entry key="..\:/UNAIR/ACTIVITY/BANGKIT 2022/CAPSTONE/GITHUB REPO/mential-app/app/src/main/res/layout/activity_landing_page1.xml" value="0.1" />
-        <entry key="..\:/UNAIR/ACTIVITY/BANGKIT 2022/CAPSTONE/GITHUB REPO/mential-app/app/src/main/res/layout/activity_landing_page2.xml" value="0.2" />
+        <entry key="..\:/UNAIR/ACTIVITY/BANGKIT 2022/CAPSTONE/GITHUB REPO/mential-app/app/src/main/res/layout/activity_landing_page1.xml" value="0.264" />
+        <entry key="..\:/UNAIR/ACTIVITY/BANGKIT 2022/CAPSTONE/GITHUB REPO/mential-app/app/src/main/res/layout/activity_landing_page2.xml" value="0.264" />
         <entry key="..\:/UNAIR/ACTIVITY/BANGKIT 2022/CAPSTONE/GITHUB REPO/mential-app/app/src/main/res/layout/activity_landing_page3.xml" value="0.2359375" />
         <entry key="..\:/UNAIR/ACTIVITY/BANGKIT 2022/CAPSTONE/GITHUB REPO/mential-app/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/UNAIR/ACTIVITY/BANGKIT 2022/CAPSTONE/GITHUB REPO/mential-app/app/src/main/res/layout/activity_signup.xml" value="0.264" />
         <entry key="..\:/UNAIR/ACTIVITY/BANGKIT 2022/CAPSTONE/GITHUB REPO/mential-app/app/src/main/res/layout/activity_splash_screen.xml" value="0.14791666666666667" />
+        <entry key="..\:/UNAIR/ACTIVITY/BANGKIT 2022/CAPSTONE/GITHUB REPO/mential-app/app/src/main/res/layout/activity_test1.xml" value="0.264" />
+        <entry key="..\:/UNAIR/ACTIVITY/BANGKIT 2022/CAPSTONE/GITHUB REPO/mential-app/app/src/main/res/layout/activity_test2.xml" value="0.25" />
+        <entry key="..\:/UNAIR/ACTIVITY/BANGKIT 2022/CAPSTONE/GITHUB REPO/mential-app/app/src/main/res/layout/activity_test3.xml" value="0.25" />
         <entry key="..\:/UNAIR/ACTIVITY/BANGKIT 2022/CAPSTONE/GITHUB REPO/mential-app/app/src/main/res/layout/dropdown_item.xml" value="0.25" />
         <entry key="..\:/UNAIR/ACTIVITY/BANGKIT 2022/CAPSTONE/MENTIAL/app/src/main/res/layout/activity_main.xml" value="0.24583333333333332" />
         <entry key="..\:/UNAIR/ACTIVITY/BANGKIT 2022/CAPSTONE/MENTIAL/app/src/main/res/layout/activity_splash_screen.xml" value="0.24583333333333332" />

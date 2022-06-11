@@ -3,6 +3,7 @@
     <string name="motto_app">make everyone health</string>
 
     <string name="logo_app">Logo Mential App</string>
+    <string name="desc_img">Image</string>
 
     //Landing page
     <string name="landing_text1">Hello,\nYou Deserve To Be Happy!</string>
@@ -14,7 +15,7 @@
     <string name="btn_skip">Skip</string>
     <string name="btn_sigup">Sign Up</string>
     <string name="btn_login">Login</string>
-    <string name="start_test">Start Test</string>
+    <string name="btn_start">Start Test</string>
     <string name="btn_next">Next</string>
     <string name="btn_finish">Finish</string>
     <string name="bck_home">Back to Homepage</string>
@@ -54,7 +55,7 @@
     //question
     <string name="question1">How are you today?</string>
     <string name="question2">Tell me about your day!</string>
-    <string name="question3">Please tell me about your worry!</string>
+    <string name="question3">Please tell me about\nyour worry!</string>
 
     //result
     <string name="title_result">Result</string>
