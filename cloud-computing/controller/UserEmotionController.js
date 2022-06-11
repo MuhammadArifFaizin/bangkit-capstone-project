@@ -47,33 +47,34 @@ const createEmotion = async (req, res) => {
       'SELECT * FROM emotions WHERE name like $1',
       [audio]
     );
+    
+    pool.query(
+      'INSERT INTO users_emotions (id_user, id_emotion) VALUES ($1, $2) RETURNING id',
+      [id, emotion.rows[0].id],
+      (err, results) => {
+        if (err) {
+          res.status(400)
+            .contentType('application/json')
+            .json({ status: err.name, message: err.message });
+        } else {
+          res.status(201)
+            .contentType('application/json')
+            .json({
+              status: 'success',
+              data: {
+                id: results.rows[0].id,
+                emotion: emotion.rows[0]
+              },
+            });
+        }
+      },
+    );
+
   } catch (err) {
     res.status(400)
       .contentType('application/json')
-      .json({ status: 'error', message: err });
+      .json({ status: err.name, message: err.message });
   }
-    
-  pool.query(
-    'INSERT INTO users_emotions (id_user, id_emotion) VALUES ($1, $2) RETURNING id',
-    [id, emotion.rows[0].id],
-    (err, results) => {
-      if (err) {
-        res.status(400)
-          .contentType('application/json')
-          .json({ status: 'error', message: err });
-      } else {
-        res.status(201)
-          .contentType('application/json')
-          .json({
-            status: 'success',
-            data: {
-              id: results.rows[0].id,
-              emotion: emotion.rows[0]
-            },
-          });
-      }
-    },
-  );
 };
 
 const deleteEmotion = (req, res) => {
