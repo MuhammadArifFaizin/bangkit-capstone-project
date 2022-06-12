@@ -14,7 +14,7 @@ class HomepageActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.buttonHomepage.setOnClickListener{
-            startActivity(Intent(this@HomepageActivity, CautionActivity::class.java))
+            startActivity(Intent(this@HomepageActivity, Test1Activity::class.java))
         }
     }
 }

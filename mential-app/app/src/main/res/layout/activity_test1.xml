@@ -43,19 +43,21 @@
         android:contentDescription="@string/desc_img" />
 
     <Button
-        android:id="@+id/btn_start1"
+        android:id="@+id/recordButton"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_marginStart="32dp"
+        android:onClick="recordAudio"
         android:background="@drawable/shape_circle_white"
         app:layout_constraintBottom_toBottomOf="@+id/bckg_btn1"
         app:layout_constraintStart_toStartOf="@+id/bckg_btn1"
         app:layout_constraintTop_toTopOf="@+id/bckg_btn1" />
 
     <Button
-        android:id="@+id/btn_stop1"
+        android:id="@+id/stopButton"
         android:layout_width="50dp"
         android:layout_height="50dp"
+        android:onClick="stopAudio"
         android:background="@drawable/stop"
         app:layout_constraintBottom_toBottomOf="@+id/bckg_btn1"
         app:layout_constraintEnd_toEndOf="@+id/bckg_btn1"
@@ -63,11 +65,12 @@
         app:layout_constraintTop_toTopOf="@+id/bckg_btn1" />
 
     <Button
-        android:id="@+id/btn_play1"
+        android:id="@+id/playButton"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginEnd="16dp"
         android:background="@drawable/play"
+        android:onClick="playAudio"
         app:layout_constraintBottom_toBottomOf="@+id/bckg_btn1"
         app:layout_constraintEnd_toEndOf="@+id/bckg_btn1"
         app:layout_constraintTop_toTopOf="@+id/bckg_btn1" />
