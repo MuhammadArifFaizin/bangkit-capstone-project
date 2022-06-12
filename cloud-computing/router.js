@@ -2,6 +2,16 @@ const express = require('express');
 const router = express.Router();
 const isAuthenticated = require('./middleware/Auth');
 
+const {
+  authorization,
+  oauth2callback,
+  revoke
+} = require('./middleware/OAuth2Client');
+
+router.get('/authorization', authorization);
+router.get('/oauth2callback', oauth2callback);
+router.get('/revoke', revoke);
+
 const { 
   login,
   registration,

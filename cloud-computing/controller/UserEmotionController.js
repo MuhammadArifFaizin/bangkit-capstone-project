@@ -6,7 +6,7 @@ const pool = new Pool(db);
 const getAllEmotionByUserId = (req, res) => {
   const id = parseInt(req.params.id, 10);
   pool.query(
-    'SELECT a.id, b.name, c.name as emotion, c.title, c.description FROM users_emotions as a JOIN users as b ON a.id_user = b.id JOIN emotions as c ON a.id_emotion = c.id WHERE b.id = $1 ORDER BY a.created_at ASC',
+    'SELECT a.id, b.name, c.name as emotion, c.title, c.description, a.created_at FROM users_emotions as a JOIN users as b ON a.id_user = b.id JOIN emotions as c ON a.id_emotion = c.id WHERE b.id = $1 ORDER BY a.created_at ASC',
     [id],
     (err, results) => {
     if (err) {
@@ -24,7 +24,7 @@ const getAllEmotionByUserId = (req, res) => {
 const getEmotionById = (req, res) => {
   const id = parseInt(req.params.id, 10);
   pool.query(
-    'SELECT a.id, b.name as emotion, b.title, b.description FROM users_emotions as a JOIN emotions as b ON a.id_emotion = b.id WHERE a.id = $1',
+    'SELECT a.id, b.name as emotion, b.title, b.description, a.created_at FROM users_emotions as a JOIN emotions as b ON a.id_emotion = b.id WHERE a.id = $1',
     [id],
     (err, results) => {
     if (err) {
