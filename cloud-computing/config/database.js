@@ -1,7 +1,7 @@
 module.exports = {
-  user: 'postgres',
+  user: 'me',
   host: '34.101.40.200',
   database: 'capstone_db',
-  password: '0@)=9(P%:\<6fniV',
+  password: 'dt"EUX,4A&IPSZQ#',
   port: 5432,
 };
