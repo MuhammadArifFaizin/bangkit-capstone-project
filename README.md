@@ -18,7 +18,7 @@ Team ID : C22-PS309
 
 # Documents
 - Project Plan/Design Documents: https://drive.google.com/open?id=1W5i_e9RogktsYAO3GJHqNARWn4K6NWbv
-- Project Git Repository: <to be added by the team>
+- Project Git Repository: https://github.com/MuhammadArifFaizin/bangkit-capstone-project
 - Other resources: <to be added by the team>
 
 # Decision logs
