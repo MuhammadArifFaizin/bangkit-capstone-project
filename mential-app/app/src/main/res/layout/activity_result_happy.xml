@@ -6,4 +6,82 @@
     android:layout_height="match_parent"
     tools:context=".ResultHappy">
 
+    <TextView
+        android:id="@+id/tv_resulthappy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="54dp"
+        android:fontFamily="@font/titilliumweb_bold"
+        android:text="@string/title_result"
+        android:textAlignment="center"
+        android:textColor="@color/blue_purple"
+        android:textSize="32sp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewhappy"
+        android:layout_width="321dp"
+        android:layout_height="481dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_resulthappy"
+        app:srcCompat="@drawable/box_happy" />
+
+    <ImageView
+        android:id="@+id/img_happy"
+        android:layout_width="162dp"
+        android:layout_height="149dp"
+        android:layout_marginTop="56dp"
+        android:src="@drawable/emot_happy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageViewhappy" />
+
+    <LinearLayout
+        android:layout_width="217dp"
+        android:layout_height="212dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewhappy"
+        app:layout_constraintStart_toStartOf="@+id/imageViewhappy"
+        app:layout_constraintTop_toBottomOf="@+id/img_happy">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/happy_result"
+            android:textAlignment="center"
+            android:textColor="@color/dark_grey"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="94dp"
+            android:layout_marginTop="94dp"
+            android:text="@string/happy_detail"
+            android:textAlignment="center"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_resulthappy"
+        android:layout_width="330dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="48dp"
+        android:background="@drawable/shape_rectangle_purple"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/bck_home"
+        android:textColor="@color/black_grey"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewhappy" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -14,7 +14,7 @@
         android:text="@string/title_signup"
         android:fontFamily="@font/titilliumweb_bold"
         android:textSize="32sp"
-        android:textColor="@color/blue_purple_soft"
+        android:textColor="@color/blue_purple"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
